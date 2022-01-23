@@ -1,14 +1,20 @@
-# Bot para sorteio de instagram
+# Bot para sorteio de instagram :computer:
+Bot feito em python utilizando a biblioteca selenium, para comentar automaticamente em sorteios do instagram.
+## Tecnologias :toolbox:
+* [Python](https://www.python.org/downloads/)
+* [Selenium](https://www.selenium.dev/)
 
-### Descrição:
-##### Bot feito em python utilizando a biblioteca selenium, para comentar automaticamente em sorteios do instagram. O bot faz: 
-- abre o navegador
-- entra o site do intragram
-- faz o login no instagram com as informações inseridas no terminal
-- vai para o post do login com a url inserida no terminal
-- comenta a cada 1 minuto a mensagem inserida no terminal
-
-### Para o bot rodar é necessario ter no computador:
-- python 3.7+
-- firefox
-- biblioteca do selenium
+## Instalação :hammer_and_wrench:
+Clone o repositorio do projeto 
+```bash 
+  git clone https://github.com/joaovictorhm22/bot-intagram.git
+  cd bot-intagram
+```
+Instale as bibliotecas
+```bash 
+  pip install -r requirements.txt 
+```
+Execute o programa
+```bash 
+  python ./src/__init__.py
+```
